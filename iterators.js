@@ -21,7 +21,6 @@ const logger = array => array.forEach(element => console.log(element));
  ************************************/
 //const toCelsius = function(temperatures) {
 
-//let celus = [];
 const toCelsius = temperatures => temperatures.map(far => (far - 32) * (5 / 9));
 
 /**************************************
